@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio
 
-## Getting Started
+This repository contains my portfolio, showcasing my projects, skills, and experience.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [About](#about)
+- [Projects](#projects)
+- [Skills](#skills)
+- [Experience](#experience)
+- [Contact](#contact)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## About
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+I'm Lasse, a BCIT CISA alumni with a strong focus on networking. My true passion lies in system administration and system integration, where I enjoy tackling complex challenges and optimizing IT environments. In my spare time, I indulge in web development and work on my homelab, constantly experimenting and learning new technologies. My unique combination of programming and networking skills, coupled with hands-on experience in managing home servers, makes me a versatile and resourceful IT professional.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Projects
 
-## Learn More
+- [Homelab](https://www.famlam.ca/dashboard): Home automation and administration using [Proxmox Virtual Environment](https://www.proxmox.com/proxmox-virtual-environment/overview)
 
-To learn more about Next.js, take a look at the following resources:
+- [www.famlam.ca](https://www.famlam.ca): A homelab hobby web project for friends and family. [GitHub/famlam](https://github.com/SlickYeet/famlam)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [docs.famlam.ca](https://docs.famlam.ca): A documentation site for my homelab, detailing configurations, setups, and various IT projects. This site helps in maintaining organized and accessible information for troubleshooting and future expansions. It is open-source and contributions are welcomed. [GitHub/Docs](https://github.com/famlam-ca/hhn-documentation)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Skills
 
-## Deploy on Vercel
+### Tools and Technologies
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| [Proxmox VE](https://www.proxmox.com/en/proxmox-virtual-environment/overview) | [![mysql](https://skillicons.dev/icons?i=mysql)](https://www.mysql.com) | [![linux](https://skillicons.dev/icons?i=linux)](https://wikipedia.org/wiki/Linux) | [![ubuntu](https://skillicons.dev/icons?i=ubuntu)](https://ubuntu.com) | [CentOS](https://www.centos.org) | [![git](https://skillicons.dev/icons?i=git)](https://www.git-scm.com) | [![github](https://skillicons.dev/icons?i=github)](https://github.com) | [![docker](https://skillicons.dev/icons?i=docker)](https://www.docker.com) |
+| ----------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | -------------------------------- | --------------------------------------------------------------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------------------- |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Programming Languages
+
+| [![js](https://skillicons.dev/icons?i=js)](https://www.javascript.com/) | [![ts](https://skillicons.dev/icons?i=ts)](https://www.typescriptlang.org/) | [![html](https://skillicons.dev/icons?i=html)](https://wikipedia.org/wiki/HTML) | [![css](https://skillicons.dev/icons?i=css)](https://wikipedia.org/wiki/CSS) | [![bash](https://skillicons.dev/icons?i=bash)](<https://wikipedia.org/wiki/Bash_(Unix_shell)>) |
+| ----------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+
+### Frameworks and Libraries
+
+| [![nextjs](https://skillicons.dev/icons?i=nextjs)](https://nextjs.org) | [![react](https://skillicons.dev/icons?i=react)](https://react.dev) | [![nodejs](https://skillicons.dev/icons?i=nodejs)](https://nodejs.org) | [![tailwind](https://skillicons.dev/icons?i=tailwind)](https://tailwindcss.com) | [Shadcn/ui](https://ui.shadcn.com) |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ---------------------------------- |
+
+### Networking
+
+- TCP/IP
+- DNS
+- DHCP
+- Network Security
+
+### Other Relevant Skills
+
+- System Administration
+- Virtualization
+- Automation
+- Troubleshooting
+
+## Contact
+
+Feel free to reach out to me via email or connect with me on social media:
+
+- Email: [lasse@famlam.ca](mailto:lasse@famlam.ca)
+- LinkedIn: [Lasse Lammers](https://www.linkedin.com/in/lasse-lammers-90a050234/)
+- GitHub: [Lasse](https://github.com/SlickYeet)
