@@ -7,7 +7,6 @@ This repository contains my portfolio, showcasing my projects, skills, and exper
 - [About](#about)
 - [Projects](#projects)
 - [Skills](#skills)
-- [Experience](#experience)
 - [Contact](#contact)
 
 ## About
