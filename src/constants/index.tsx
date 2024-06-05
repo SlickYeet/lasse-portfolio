@@ -3,7 +3,7 @@ export const ACHIEVEMENT_LIST = [
     metric: "Projects",
     value: 5,
     postfix: "+",
-    href: "https://github.com/famlam-ca",
+    href: "#projects",
   },
   {
     prefix: "~",
@@ -19,7 +19,7 @@ export const ACHIEVEMENT_LIST = [
     metric: "Years",
     value: 2,
     postfix: "+",
-    href: "https://www.famlam.ca/about",
+    href: "https://www.famlam.ca/about/me",
   },
 ]
 

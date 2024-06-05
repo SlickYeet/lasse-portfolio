@@ -20,7 +20,7 @@ export const About = () => {
   }
 
   return (
-    <section className="min-h-[calc(100vh-4rem)]" id="about">
+    <section className="min-h-screen" id="about">
       <div className="gap-8 px-4 py-2 sm:py-16 md:grid md:grid-cols-2 xl:gap-16 xl:px-16">
         <Image
           src="/images/about-image.png"
@@ -31,7 +31,7 @@ export const About = () => {
         />
         <div className="mt-4 flex h-full flex-col text-left md:mt-0">
           <h2 className="mb-4 text-4xl font-bold">About Me</h2>
-          <p className="prose lg:prose-lg bg-gradient-to-br from-muted-foreground to-muted bg-clip-text text-transparent">
+          <p className="prose bg-gradient-to-br from-muted-foreground to-muted bg-clip-text text-transparent lg:prose-lg">
             I&apos;m Lasse, a BCIT CISA alumni with a strong focus on
             networking. My true passion lies in system administration and system
             integration, where I enjoy tackling complex challenges and
