@@ -33,7 +33,7 @@ export const Projects = () => {
         My Projects
       </h2>
 
-      <div className="flex flex-row items-center justify-center gap-2 py-6">
+      <div className="flex flex-row items-center justify-start gap-2 overflow-x-auto py-6 lg:justify-center">
         <ProjectTag
           onClick={() => handleTagChange("all")}
           name="All"
@@ -66,7 +66,9 @@ export const Projects = () => {
         />
       </div>
 
-      <ul ref={ref} className="grid gap-8 md:grid-cols-3 md:gap-12">
+      <ul
+        ref={ref}
+        className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:gap-12 lg:grid-cols-3">
         {filteredProjects.map((project, i) => (
           <motion.li
             key={i}

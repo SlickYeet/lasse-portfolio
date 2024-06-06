@@ -5,7 +5,7 @@ export const Footer = () => {
 
   return (
     <footer className="footer z-10 border-t border-border">
-      <div className="container mx-auto flex items-center justify-between p-12">
+      <div className="container mx-auto flex items-center justify-between px-4 py-12 xl:px-16">
         <p className="text-2xl">
           LA<span className="text-primary">SSE</span>
         </p>

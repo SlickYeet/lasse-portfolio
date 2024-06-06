@@ -20,7 +20,11 @@ export const ProjectCard = ({
     <div>
       <div
         className="group relative h-52 rounded-t-xl"
-        style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}>
+        style={{
+          background: `url(${imgUrl})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}>
         <div className="overlay absolute left-0 top-0 hidden h-full w-full items-center justify-center bg-background/75 backdrop-blur-lg transition-all duration-500 group-hover:flex">
           <Link
             href={repoUrl}
@@ -41,7 +45,7 @@ export const ProjectCard = ({
 
       <div className="mt-3 rounded-b-xl bg-foreground px-4 py-6">
         <h5 className="mb-2 text-xl font-semibold">{title}</h5>
-        <p className="prose lg:prose-lg text-muted-foreground">{description}</p>
+        <p className="prose text-muted-foreground lg:prose-lg">{description}</p>
       </div>
     </div>
   )

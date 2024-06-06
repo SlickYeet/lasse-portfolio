@@ -1,8 +1,8 @@
 # Changelog
 
-## 1.0.0
+## 1.0.2
 
-**Completed portfolio**
+**Added mobile responsiveness**
 
 ## 1.0.1
 
@@ -10,3 +10,7 @@
 
 - Achievements link
 - About section height
+
+## 1.0.0
+
+**Completed portfolio**

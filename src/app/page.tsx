@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <main className="flex min-h-screen flex-col bg-background text-text">
       <Navbar />
-      <div className="container mx-auto mt-24 px-12 py-4">
+      <div className="container mx-auto mt-24 px-4 py-4 xl:px-16">
         <Hero />
         <Achievements />
         <About />

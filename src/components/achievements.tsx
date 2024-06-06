@@ -14,7 +14,7 @@ const AnimatedNums = dynamic(
 
 export const Achievements = () => {
   return (
-    <div className="px-4 py-8 sm:py-16 xl:gap-16 xl:px-16">
+    <div className="py-8 sm:py-16 xl:gap-16">
       <div className="flex flex-col items-center justify-between rounded-md px-16 py-8 sm:flex-row sm:border sm:border-border">
         {ACHIEVEMENT_LIST.map((achievement, i) => {
           return (

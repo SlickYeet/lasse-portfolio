@@ -14,7 +14,7 @@ export const Hero = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center justify-self-start text-center sm:text-left">
-          <h1 className="mb-4 text-4xl font-extrabold sm:text-5xl lg:text-7xl lg:leading-normal">
+          <h1 className="mb-4 text-xl font-extrabold sm:text-3xl lg:text-5xl lg:leading-normal xl:text-7xl">
             <span className="bg-gradient-to-r from-primary to-primary-foreground bg-clip-text text-transparent">
               Hello, I&apos;m{" "}
             </span>
@@ -38,7 +38,7 @@ export const Hero = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="prose sm:prose-lg lg:prose-xl mb-6 text-balance bg-gradient-to-br from-muted-foreground to-muted bg-clip-text text-transparent">
+          <p className="prose mb-6 text-balance bg-gradient-to-br from-muted-foreground to-muted bg-clip-text text-transparent sm:prose-lg lg:prose-xl">
             I&apos;m a BCIT Computer Information Systems Administration (CISA)
             alumni with a passion for IT and web development.
           </p>
@@ -64,13 +64,13 @@ export const Hero = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-4 mt-4 place-self-center lg:mt-0">
+          className="col-span-4 mt-4 place-self-end lg:mt-0">
           <div className="relative h-[250px] w-[250px] rounded-full bg-gradient-to-br from-primary to-primary-foreground lg:h-[350px] lg:w-[350px]">
             <Image
               src="https://github.com/SlickYeet.png"
               alt="lasse"
-              width={300}
-              height={300}
+              width={460}
+              height={460}
               className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform rounded-full"
             />
           </div>

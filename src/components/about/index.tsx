@@ -21,7 +21,7 @@ export const About = () => {
 
   return (
     <section className="min-h-screen" id="about">
-      <div className="gap-8 px-4 py-2 sm:py-16 md:grid md:grid-cols-2 xl:gap-16 xl:px-16">
+      <div className="gap-8 py-2 sm:py-16 md:grid md:grid-cols-2 xl:gap-16">
         <Image
           src="/images/about-image.png"
           alt="about"
