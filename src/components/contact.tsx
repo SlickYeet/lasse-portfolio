@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Mail } from "lucide-react"
+import { Globe, Mail } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
@@ -54,6 +54,9 @@ export const Contact = () => {
             href="https://www.linkedin.com/in/lasse-lammers-90a050234"
             target="_blank">
             <Image src={LinkedInIcon} alt="LinkedIn" />
+          </Link>
+          <Link href="https://www.famlam.ca/contact" target="_blank">
+            <Globe className="h-12 w-12" />
           </Link>
           <Link href="mailto:lasse@famlam.ca">
             <Mail className="h-12 w-12" />

@@ -1,9 +1,9 @@
 "use client"
 
+import { motion } from "framer-motion"
 import Image from "next/image"
 import Link from "next/link"
 import { TypeAnimation } from "react-type-animation"
-import { motion } from "framer-motion"
 
 export const Hero = () => {
   return (
@@ -64,14 +64,14 @@ export const Hero = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-4 mt-4 place-self-end lg:mt-0">
-          <div className="relative h-[250px] w-[250px] rounded-full bg-gradient-to-br from-primary to-primary-foreground lg:h-[350px] lg:w-[350px]">
+          className="col-span-4 mt-4 place-self-center lg:mt-0 lg:place-self-end">
+          <div className="relative h-[225px] w-[225px] rounded-full bg-gradient-to-br from-primary to-primary-foreground lg:h-[350px] lg:w-[350px]">
             <Image
               src="https://github.com/SlickYeet.png"
               alt="lasse"
-              width={460}
-              height={460}
-              className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform rounded-full"
+              width={300}
+              height={300}
+              className="absolute left-1/2 top-1/2 h-[200px] w-[200px] -translate-x-1/2 -translate-y-1/2 transform rounded-full lg:h-[300px] lg:w-[300px]"
             />
           </div>
         </motion.div>

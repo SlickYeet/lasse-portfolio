@@ -13,6 +13,7 @@ export const Footer = () => {
           &copy; {year}{" "}
           <Link
             href="https://www.famlam.ca"
+            target="_blank"
             className="text-primary underline-offset-2 hover:underline">
             HHN
           </Link>

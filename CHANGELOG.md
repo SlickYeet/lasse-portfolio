@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.0.3
+
+**Updated packages**
+
+**Modified**
+
+- Footer copy right holder link opens in new window
+- Fixed Hero mobile responsiveness and border circle
+- Added website link to Contact section
+
 ## 1.0.2
 
 **Added mobile responsiveness**
