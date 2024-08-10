@@ -18,18 +18,18 @@ export const TabButton = ({
   selectTab,
   children,
 }: TabButtonProps) => {
-  const buttonStyles = active ? "text-text" : "text-muted-foreground"
+  const buttonStyles = active ? "text-foreground" : "text-muted-foreground"
 
   return (
-    <button disabled={disabled} onClick={selectTab}>
-      <p className={`mr-3 font-semibold hover:text-text ${buttonStyles}`}>
+    <motion.button disabled={disabled} onClick={selectTab}>
+      <p className={`mr-3 font-semibold hover:text-foreground ${buttonStyles}`}>
         {children}
       </p>
       <motion.div
         animate={active ? "active" : "default"}
         variants={variants}
-        className="mr-3 mt-2 h-1 bg-primary"
+        className="h-px bg-primary"
       />
-    </button>
+    </motion.button>
   )
 }

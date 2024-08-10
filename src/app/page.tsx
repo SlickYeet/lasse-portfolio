@@ -8,17 +8,24 @@ import { Projects } from "@/components/projects"
 
 const Home = () => {
   return (
-    <main className="flex min-h-screen flex-col bg-background text-text">
+    <div className="flex flex-col-reverse md:flex-col">
       <Navbar />
-      <div className="container mx-auto mt-24 px-4 py-4 xl:px-16">
-        <Hero />
-        <Achievements />
-        <About />
+
+      <div className="flex-grow">
+        <div className="container mx-auto mt-8 px-4 py-4 xl:mt-24 xl:px-16">
+          <Hero />
+          <Achievements />
+          <About />
+        </div>
         <Projects />
-        <Contact />
+
+        <div className="container mx-auto mt-8 px-4 py-4 xl:mt-24 xl:px-16">
+          <Contact />
+        </div>
       </div>
+
       <Footer />
-    </main>
+    </div>
   )
 }
 

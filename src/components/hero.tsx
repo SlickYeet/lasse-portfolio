@@ -5,25 +5,21 @@ import Image from "next/image"
 import Link from "next/link"
 import { TypeAnimation } from "react-type-animation"
 
+import DotPattern from "@/components/magicui/dot-pattern"
+import GradualSpacing from "@/components/magicui/gradual-spacing"
+
 export const Hero = () => {
   return (
-    <section className="lg:py-16">
+    <section className="">
+      <DotPattern className="z-[-20] [mask-image:radial-gradient(600px_circle_at_center,white,transparent)]" />
+
       <div className="grid grid-cols-1 sm:grid-cols-12">
-        <motion.div
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-          className="col-span-8 place-self-center justify-self-start text-center sm:text-left">
+        <div className="col-span-8 place-self-center justify-self-start text-center sm:text-left">
           <h1 className="mb-4 text-xl font-extrabold sm:text-3xl lg:text-5xl lg:leading-normal xl:text-7xl">
-            <span className="bg-gradient-to-r from-primary to-primary-foreground bg-clip-text text-transparent">
-              Hello, I&apos;m{" "}
-            </span>
-            <br />
+            <GradualSpacing text="Hi, I'm Lasse" />
             <TypeAnimation
               sequence={[
-                "Lasse",
-                1000,
-                "SlickYeet",
+                "AKA SlickYeet",
                 1000,
                 "A System Admin",
                 1000,
@@ -38,34 +34,41 @@ export const Hero = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="prose mb-6 text-balance bg-gradient-to-br from-muted-foreground to-muted bg-clip-text text-transparent sm:prose-lg lg:prose-xl">
-            I&apos;m a BCIT Computer Information Systems Administration (CISA)
-            alumni with a passion for IT and web development.
-          </p>
-          <div>
-            <Link
-              href="#about"
-              className="mr-4 inline-block w-full rounded-full bg-gradient-to-br from-primary to-primary-foreground px-1 py-1 text-text sm:w-fit">
-              <span className="block rounded-full bg-transparent from-primary to-primary-foreground px-5 py-2 hover:bg-background">
-                About Me
-              </span>
-            </Link>
-            <Link
-              href="#contact"
-              className="mt-3 inline-block w-full rounded-full bg-gradient-to-br from-primary to-primary-foreground px-1 py-1 text-text sm:w-fit">
-              <span className="block rounded-full bg-background from-primary to-primary-foreground px-5 py-2 hover:bg-gradient-to-br">
-                Contact
-              </span>
-            </Link>
-          </div>
-        </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.5 }}>
+            <p className="prose mb-6 text-balance text-muted-foreground sm:prose-lg lg:prose-xl">
+              I&apos;m a BCIT Computer Information Systems Administrator (CISA)
+              graduate with a passion for IT and web development.
+            </p>
+
+            <div>
+              <Link
+                href="#about"
+                className="mr-4 inline-block rounded-full bg-gradient-to-br from-muted-foreground to-secondary px-1 py-1 sm:w-fit">
+                <span className="block rounded-full px-5 py-2 hover:bg-background">
+                  About Me
+                </span>
+              </Link>
+              <Link
+                href="#contact"
+                className="mt-3 inline-block rounded-full bg-gradient-to-br from-muted-foreground to-secondary px-1 py-1 sm:w-fit">
+                <span className="block rounded-full bg-background px-5 py-2 hover:bg-gradient-to-br hover:from-muted-foreground hover:to-secondary">
+                  Contact
+                </span>
+              </Link>
+            </div>
+          </motion.div>
+        </div>
 
         <motion.div
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-          className="col-span-4 mt-4 place-self-center lg:mt-0 lg:place-self-end">
-          <div className="relative h-[225px] w-[225px] rounded-full bg-gradient-to-br from-primary to-primary-foreground lg:h-[350px] lg:w-[350px]">
+          initial={{ opacity: 0, x: 50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ delay: 0.5 }}
+          className="col-span-4 mt-16 place-self-center md:place-self-end lg:mt-0">
+          <div className="relative h-[210px] w-[210px] rounded-full bg-gradient-to-br from-muted-foreground to-secondary lg:h-[315px] lg:w-[315px]">
             <Image
               src="https://github.com/SlickYeet.png"
               alt="lasse"

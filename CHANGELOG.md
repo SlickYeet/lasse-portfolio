@@ -2,6 +2,12 @@
 
 ## 1.0.3
 
+Reworked portfolio...
+
+I am not listing all the changes
+
+## 1.0.3
+
 **Updated packages**
 
 **Modified**
