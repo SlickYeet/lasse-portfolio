@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.4
+
+Updated Footer position on mobile devices
+
 ## 1.0.3
 
 Reworked portfolio...

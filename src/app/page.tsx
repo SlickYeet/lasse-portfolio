@@ -22,9 +22,9 @@ const Home = () => {
         <div className="container mx-auto mt-8 px-4 py-4 xl:mt-24 xl:px-16">
           <Contact />
         </div>
-      </div>
 
-      <Footer />
+        <Footer />
+      </div>
     </div>
   )
 }
